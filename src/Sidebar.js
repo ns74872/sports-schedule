@@ -100,6 +100,9 @@ const Sidebar = () => {
           matches:[
   
             { teamA: "Team A1", teamB: "Team A2", location: "Gymkhana Grounds", time: "3:00 PM" },
+            { teamA: "Team A1", teamB: "Team A2", location: "Gymkhana Grounds", time: "3:00 PM" },
+            { teamA: "Team A1", teamB: "Team A2", location: "Gymkhana Grounds", time: "3:00 PM" },
+            { teamA: "Team A1", teamB: "Team A2", location: "Gymkhana Grounds", time: "3:00 PM" },
           ],
          
           // Add more matches for tennis
@@ -108,6 +111,10 @@ const Sidebar = () => {
           matches:[
   
             { teamA: "Player 1", teamB: "Player 2", location: "Court C", time: "2:15 PM" },
+            { teamA: "Player 1", teamB: "Player 2", location: "Court C", time: "2:15 PM" },
+            { teamA: "Player 1", teamB: "Player 2", location: "Court C", time: "2:15 PM" },
+            { teamA: "Player 1", teamB: "Player 2", location: "Court C", time: "2:15 PM" },
+
           ],
          
           // Add more matches for tennis
@@ -116,6 +123,10 @@ const Sidebar = () => {
           matches:[
   
             { teamA: "Team H1", teamB: "Team H2", location: "ADV Grounds", time: "6:00 PM" },
+            { teamA: "Team H1", teamB: "Team H2", location: "ADV Grounds", time: "6:00 PM" },
+            { teamA: "Team H1", teamB: "Team H2", location: "ADV Grounds", time: "6:00 PM" },
+            { teamA: "Team H1", teamB: "Team H2", location: "ADV Grounds", time: "6:00 PM" },
+
           ],
          
           // Add more matches for tennis
@@ -123,6 +134,9 @@ const Sidebar = () => {
         badminton: {
           matches:[
   
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
             { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
           ],
 
@@ -143,6 +157,10 @@ const Sidebar = () => {
           matches:[
   
             { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
+
           ],
 
           // Add more matches for tennis
@@ -152,6 +170,10 @@ const Sidebar = () => {
           matches:[
   
             { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
+
           ],
 
           // Add more matches for tennis
@@ -160,6 +182,10 @@ const Sidebar = () => {
           matches:[
   
             { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
+
           ],
 
           // Add more matches for tennis
@@ -168,6 +194,10 @@ const Sidebar = () => {
           matches:[
   
             { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
+
           ],
 
           // Add more matches for tennis
@@ -176,6 +206,10 @@ const Sidebar = () => {
           matches:[
   
             { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
+
           ],
 
           // Add more matches for tennis
@@ -210,27 +244,27 @@ const Sidebar = () => {
         ))}
       </div>
       <div className="rightbar">
-        {/* <div className="sport-details">
-          <div className="sport-image">
-            <img src={sportsData.Game.name.find((sport) => sport.name === selectedSport)?.bgimg} alt={selectedSport} />
-          </div>
-          <div className="sport-name">{selectedSport}</div>
-        </div> */}
+        
         <div className='imgContainer' style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
+           
+          
           <img className='imgContainer' src={sportsData.Game.name.find((sport) => sport.name === selectedSport)?.bgimg} alt={selectedSport} />
+    
         </div>
         <div className="sport-matches">
-          <h2>{selectedSport} Details</h2>
+          <h2>{selectedSport} upcomming matches</h2>
+          
           <ul>
             {selectedSportDetails.map((match, index) => (
               <li key={index} className="match-item">
-                {match.teamA} vs {match.teamB} @ {match.location}, {match.time}
+                {match.teamA} V/S {match.teamB} @ {match.location},  {match.time}
               </li>
             ))}
           </ul>
         </div>
       </div>
     </div>
+
   );
 };
 
