@@ -6,7 +6,7 @@ const Sidebar = () => {
   const sportsData = {
     Game:
     {
-      name:[
+      name:[    
         {
           name:'football',
           img:"https://img.freepik.com/premium-vector/soccer-football-icon-isolated-white-background-vector-illustration_345220-18.jpg?w=2000",
@@ -74,11 +74,11 @@ const Sidebar = () => {
       games:{
         football: {
           matches:[
-            { teamA: "Team A", teamB: "Team B", location: "Stadium A", time: "12:00 PM" },
-            { teamA: "Team C", teamB: "Team D", location: "Stadium C", time: "1:00 PM", },
-            { teamA: "Team C", teamB: "Team D", location: "Stadium C", time: "2:00 PM", },
-            { teamA: "Team C", teamB: "Team D", location: "Stadium C", time: "2:00 PM", },
-            { teamA: "Team C", teamB: "Team D", location: "Stadium C", time: "2:00 PM", },
+            { teamA: "Team A", teamB: "Team B", location: "Stadium A", time: "12:00 PM", date: "22 Aug 2023" },
+            { teamA: "Team C", teamB: "Team D", location: "Stadium C", time: "1:00 PM", date: "23 Aug 2023"},
+            { teamA: "Team C", teamB: "Team D", location: "Stadium C", time: "2:00 PM", date: "24 Aug 2023"},
+            { teamA: "Team C", teamB: "Team D", location: "Stadium C", time: "2:00 PM", date: "25 Aug 2023"},
+            { teamA: "Team C", teamB: "Team D", location: "Stadium C", time: "2:00 PM", date: "25 Aug 2023"},
             
           ],
 
@@ -87,10 +87,10 @@ const Sidebar = () => {
         basketball: {
           matches:[
   
-            { teamA: "Team X", teamB: "Team Y", location: "Arena B", time: "3:30 PM" },
-            { teamA: "Team X", teamB: "Team Y", location: "Arena B", time: "3:30 PM" },
-            { teamA: "Team X", teamB: "Team Y", location: "Arena B", time: "3:30 PM" },
-            { teamA: "Team X", teamB: "Team Y", location: "Arena B", time: "3:30 PM" },
+            { teamA: "Team X", teamB: "Team Y", location: "Arena B", time: "3:30 PM", date: "22 Aug 2023" },
+            { teamA: "Team X", teamB: "Team Y", location: "Arena B", time: "3:30 PM", date: "23 Aug 2023" },
+            { teamA: "Team X", teamB: "Team Y", location: "Arena B", time: "3:30 PM", date: "24 Aug 2023" },
+            { teamA: "Team X", teamB: "Team Y", location: "Arena B", time: "3:30 PM", date: "25 Aug 2023" },
 
           ],
          
@@ -99,10 +99,10 @@ const Sidebar = () => {
         cricket: {
           matches:[
   
-            { teamA: "Team A1", teamB: "Team A2", location: "Gymkhana Grounds", time: "3:00 PM" },
-            { teamA: "Team A1", teamB: "Team A2", location: "Gymkhana Grounds", time: "3:00 PM" },
-            { teamA: "Team A1", teamB: "Team A2", location: "Gymkhana Grounds", time: "3:00 PM" },
-            { teamA: "Team A1", teamB: "Team A2", location: "Gymkhana Grounds", time: "3:00 PM" },
+            { teamA: "Team A1", teamB: "Team A2", location: "Gymkhana Grounds", time: "3:00 PM", date: "22 Aug 2023" },
+            { teamA: "Team A1", teamB: "Team A2", location: "Gymkhana Grounds", time: "3:00 PM", date: "23 Aug 2023" },
+            { teamA: "Team A1", teamB: "Team A2", location: "Gymkhana Grounds", time: "3:00 PM", date: "24 Aug 2023" },
+            { teamA: "Team A1", teamB: "Team A2", location: "Gymkhana Grounds", time: "3:00 PM", date: "25 Aug 2023" },
           ],
          
           // Add more matches for tennis
@@ -110,10 +110,10 @@ const Sidebar = () => {
         tennis: {
           matches:[
   
-            { teamA: "Player 1", teamB: "Player 2", location: "Court C", time: "2:15 PM" },
-            { teamA: "Player 1", teamB: "Player 2", location: "Court C", time: "2:15 PM" },
-            { teamA: "Player 1", teamB: "Player 2", location: "Court C", time: "2:15 PM" },
-            { teamA: "Player 1", teamB: "Player 2", location: "Court C", time: "2:15 PM" },
+            { teamA: "Player 1", teamB: "Player 2", location: "Court C", time: "2:15 PM", date: "22 Aug 2023" },
+            { teamA: "Player 1", teamB: "Player 2", location: "Court C", time: "2:15 PM", date: "23 Aug 2023" },
+            { teamA: "Player 1", teamB: "Player 2", location: "Court C", time: "2:15 PM", date: "24 Aug 2023" },
+            { teamA: "Player 1", teamB: "Player 2", location: "Court C", time: "2:15 PM", date: "25 Aug 2023" },
 
           ],
          
@@ -122,10 +122,10 @@ const Sidebar = () => {
         hockey: {
           matches:[
   
-            { teamA: "Team H1", teamB: "Team H2", location: "ADV Grounds", time: "6:00 PM" },
-            { teamA: "Team H1", teamB: "Team H2", location: "ADV Grounds", time: "6:00 PM" },
-            { teamA: "Team H1", teamB: "Team H2", location: "ADV Grounds", time: "6:00 PM" },
-            { teamA: "Team H1", teamB: "Team H2", location: "ADV Grounds", time: "6:00 PM" },
+            { teamA: "Team H1", teamB: "Team H2", location: "ADV Grounds", time: "6:00 PM", date: "22 Aug 2023" },
+            { teamA: "Team H1", teamB: "Team H2", location: "ADV Grounds", time: "6:00 PM", date: "23 Aug 2023" },
+            { teamA: "Team H1", teamB: "Team H2", location: "ADV Grounds", time: "6:00 PM", date: "24 Aug 2023" },
+            { teamA: "Team H1", teamB: "Team H2", location: "ADV Grounds", time: "6:00 PM", date: "25 Aug 2023" },
 
           ],
          
@@ -134,21 +134,21 @@ const Sidebar = () => {
         badminton: {
           matches:[
   
-            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
-            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
-            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
-            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM", date: "22 Aug 2023" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM", date: "23 Aug 2023" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM", date: "24 Aug 2023" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM", date: "25 Aug 2023" },
           ],
 
           // Add more matches for tennis
         },
         chess: {
           matches:[
-            { teamA: "Team A", teamB: "Team B", location: "Stadium A", time: "12:00 PM" },
-            { teamA: "Team C", teamB: "Team D", location: "Stadium C", time: "1:00 PM", },
-            { teamA: "Team C", teamB: "Team D", location: "Stadium C", time: "2:00 PM", },
-            { teamA: "Team C", teamB: "Team D", location: "Stadium C", time: "2:00 PM", },
-            { teamA: "Team C", teamB: "Team D", location: "Stadium C", time: "2:00 PM", },
+            { teamA: "Team A", teamB: "Team B", location: "Stadium A", time: "12:00 PM", date: "22 Aug 2023" },
+            { teamA: "Team C", teamB: "Team D", location: "Stadium C", time: "1:00 PM", date: "22 Aug 2023" },
+            { teamA: "Team C", teamB: "Team D", location: "Stadium C", time: "2:00 PM", date: "23 Aug 2023" },
+            { teamA: "Team C", teamB: "Team D", location: "Stadium C", time: "2:00 PM", date: "24 Aug 2023" },
+            { teamA: "Team C", teamB: "Team D", location: "Stadium C", time: "2:00 PM", date: "25 Aug 2023" },
             
           ],
           // Add more matches for football
@@ -156,10 +156,10 @@ const Sidebar = () => {
         boxing: {
           matches:[
   
-            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
-            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
-            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
-            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM", date: "22 Aug 2023" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM", date: "22 Aug 2023" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM", date: "22 Aug 2023" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM", date: "22 Aug 2023" },
 
           ],
 
@@ -169,10 +169,10 @@ const Sidebar = () => {
         khokho: {
           matches:[
   
-            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
-            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
-            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
-            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
+            { teamA: "Team k1", teamB: "Team k2", location: "Court C", time: "5:30 PM", date: "22 Aug 2023" },
+            { teamA: "Team k4", teamB: "Team k3", location: "Court C", time: "5:30 PM", date: "22 Aug 2023" },
+            { teamA: "Team k5", teamB: "Team k5", location: "Court C", time: "5:30 PM", date: "22 Aug 2023" },
+            { teamA: "Team k2", teamB: "Team k4", location: "Court C", time: "5:30 PM", date: "22 Aug 2023" },
 
           ],
 
@@ -181,10 +181,10 @@ const Sidebar = () => {
         squash: {
           matches:[
   
-            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
-            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
-            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
-            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM", date: "22 Aug 2023" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM", date: "22 Aug 2023" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM", date: "22 Aug 2023" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM", date: "22 Aug 2023" },
 
           ],
 
@@ -193,10 +193,10 @@ const Sidebar = () => {
         tableTennis: {
           matches:[
   
-            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
-            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
-            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
-            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM", date: "22 Aug 2023" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM", date: "22 Aug 2023" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM", date: "22 Aug 2023" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM", date: "22 Aug 2023" },
 
           ],
 
@@ -205,10 +205,10 @@ const Sidebar = () => {
        volleyball: {
           matches:[
   
-            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
-            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
-            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
-            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM", date: "22 Aug 2023" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM", date: "22 Aug 2023" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM", date: "22 Aug 2023" },
+            { teamA: "Player B1", teamB: "Player B2", location: "Court C", time: "5:30 PM", date: "22 Aug 2023" },
 
           ],
 
@@ -257,7 +257,12 @@ const Sidebar = () => {
           <ul>
             {selectedSportDetails.map((match, index) => (
               <li key={index} className="match-item">
-                {match.teamA} V/S {match.teamB} @ {match.location},  {match.time}
+                
+                 <span className="vanue">{match.teamA}  V/S {match.teamB}</span>
+                 <span className="vanue">@ {match.location}</span>
+                 <span className="vanue">{match.time}</span>
+                 <span className="vanue">{match.date}</span>
+
               </li>
             ))}
           </ul>

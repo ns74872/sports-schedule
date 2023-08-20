@@ -43,6 +43,7 @@
   flex-direction: column;
   justify-content: center;
   margin: auto;
+ 
 
 }
 
@@ -51,6 +52,8 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
+  /* margin-right: 2vh; */
+
 }
 
 .sport-name {
@@ -74,11 +77,19 @@
   padding: auto;
   background-color: #f4f4f4;
   height: 5vh;
+  /* margin-right: 2vh; */
+
+
 }
 
 .imgContainer{
     height: 60vh;
     width: 85vw;
-    border: .2vh solid red;
+    /* border: .2vh solid red; */
+    margin-right: 1vh;
 }
                 
+
+.vanue{
+    margin: 6vw;
+}
