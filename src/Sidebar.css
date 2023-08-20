@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch; /* Occupies full height */
+  height: 100vh; /* 100% of viewport height */
+  padding: 20px;
+}
+
+.sidebar {
+  width: 10%;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sport-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sport-item.selected {
+  background-color: #e2e2e2;
+}
+
+.sport-image img {
+  width: 10vh;
+  height: 10vh;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.rightbar {
+  flex: 1;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sport-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sport-name {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.sport-matches h2 {
+  margin-bottom: 20px;
+}
+
+.match-item {
+  margin-bottom: 10px;
+  list-style-type: none;
+  border-left: 3px solid #ff6b6b;
+  padding-left: 10px;
+}
+
+.imgContainer{
+    height: 60vh;
+    width: 85vw;
+}
